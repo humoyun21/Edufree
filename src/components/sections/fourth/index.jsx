@@ -1,21 +1,21 @@
 import "./style.scss";
 import { Container } from "@containers";
-import Img from "@images/img2.png";
+import FourthPhoto from "@images/fourthphoto.png";
 
 function index() {
     return <section id="gratis">
     <Container>
-        <div className="gratis-wrapper flex items-center justify-between pb-[150px]">
+        <div className=" flex  justify-between items-center pb-[150px] gratis-wrapper">
            <div>
-            <p className="text-[#232536] text-[18px] font-normal">Tentang Kami</p>
-             <h1 className="w-[624px] text-[#232536] text-[38px] font-semibold py-4 ">
+            <p className="font-normal text-[18px]  text-[#232536]">Tentang Kami</p>
+             <h1 className="font-semibold py-4 text-[#232536] text-[38px] w-[624px]  ">
              EDUFREE Layanan E-Learning Gratis Untuk Membantu Kamu Bertumbuh
              </h1>
-             <p className="w-[620px] text-[#282938] text-[16px] font-mediuml">
+             <p className=" text-[16px] font-mediuml w-[620px] text-[#282938]">
              Edufree diharapkann bisa menjadi layanan yang bermanfaat bagi kedepanya dalam bidang pendidikan
              </p>
            </div>
-           <img src={Img} alt="img" />
+           <img src={FourthPhoto} alt="img" />
         </div>
     </Container>
     </section>
